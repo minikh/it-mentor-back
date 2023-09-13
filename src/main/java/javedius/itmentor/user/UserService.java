@@ -7,12 +7,14 @@ import java.util.List;
 
 @Service
 public class UserService {
-    @Autowired
+
+//    @Autowired
     private UserRepository userRepository;
 
-    @Autowired
+//    @Autowired
     private final UserMapper userMapper = new UserMapper();
 
+//    @Autowired
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
